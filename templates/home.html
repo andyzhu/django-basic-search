@@ -1,0 +1,6 @@
+<h1> Home Page</h1>
+
+<form action = "{% url 'search_results' %}" method='get'> 
+    <!-- the search_results here point to the name of the url in cities urls.py -->
+    <input name='q' type=text placeholder='Search..' />
+</form>

@@ -1,0 +1,5 @@
+.citysearch/
+.vscode/
+__pycache__/
+*/*migrations/*.py
+*.sqlite3
